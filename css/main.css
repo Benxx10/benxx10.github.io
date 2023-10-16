@@ -1,0 +1,79 @@
+body {
+    font-size: 0.9em;
+}
+  #header{
+    padding: 10px;
+    background-color: rgb(254, 255, 252);
+    text-align: center;
+
+  }
+  #footer {
+     padding: 10px;
+    color : rgb(246, 21, 21);
+    background-color: rgb(143, 146, 140);
+    text-align: center;
+   }
+   h2 {
+     text-align: center
+}
+   h3 {
+     text-align: right;
+     padding-right: 50px;
+   }
+   div.content {
+     margin: 5px;
+     padding: 20px;
+     background-color: lightgrey;
+ }
+.article {
+     margin: 20px;
+     padding: 10px;
+     background-color: white;
+ }
+ #header-menu ul {
+     padding: 0;
+ }
+ #header-menu ul li {
+      display: inline;
+       margin: 5px;
+ }
+
+ .center{
+     float:left
+
+ }
+
+ .clear{
+     clear: both;
+ }
+ .New-pubarab-x {
+  background-color: aqua;
+   background-repeat:repeat-x;
+   height:47px;
+   width:900px;
+   margin:auto;
+  }
+ 
+  .New-pubarab-r {
+   background-repeat:no-repeat;
+   height:47px;
+   width: 23px;
+   float:right;
+  }
+ 
+  .New-pubarab-f {
+   background-repeat:no-repeat;
+   height:47px;
+   width: 23px;
+   float:left;
+  }
+ 
+  .New-pubarab-text {
+   font-family:Droid Arabic Kufi, Tahoma;
+   font-size:20px;
+   font-weight:bold;
+   float:right;
+   color:rgb(19, 7, 253);
+   line-height:45px;
+   width:680px;
+  }
