@@ -1,5 +1,6 @@
 body {
     font-size: 0.9em;
+    font-family: Arial, sans-serif;
 }
   #header{
     padding: 10px;
@@ -77,3 +78,31 @@ body {
    line-height:45px;
    width:680px;
   }
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
